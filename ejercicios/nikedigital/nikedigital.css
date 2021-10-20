@@ -1,0 +1,90 @@
+* {
+    margin:0px;
+}
+
+img {
+     width: 100%;
+     
+}
+
+body {
+    font-family: Verdana;
+}
+
+h2 {
+    font-weight: lighter;
+    margin-bottom: 20px;
+    
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(197, 195, 195);
+    font-size: 10pt;
+    margin-bottom: 50px;
+}
+
+ul {
+    color: rgb(197, 195, 195);
+    padding: 0;
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+
+.cuerpo {
+    text-align: justify;
+    padding-left: 50px;
+    width: 70%;
+}
+
+footer {
+    
+    margin-top:200px;
+    padding-bottom:80px;
+    padding-top: 100px;
+    background-color: black;
+}
+
+a {
+ color: darkgray;
+ text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+
+}
+
+ .tachado:hover {
+
+     color: rgb(253, 10, 10);
+
+    text-decoration: line-through;
+
+ }
+
+ .contenedor {
+
+    margin-bottom: 200px;
+}
+
+ .textoencima {
+    position: absolute;
+    margin-top: 200px;
+    display: block;
+    font-size: 40px;
+    padding-left: 50px;
+    
+ }
+
+ .textoencima a:hover {
+     color: rgb(104, 216, 12);
+     font-size: 110%;
+ }
+ 
+
+    
