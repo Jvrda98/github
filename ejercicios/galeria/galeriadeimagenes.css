@@ -1,0 +1,165 @@
+body {
+
+    background-color:rgb(0, 0, 0);
+    margin-bottom: 150px;
+    margin-top:150px;
+}
+
+
+
+h1 {
+
+    width:600px;
+    margin-left:4%;
+    
+}
+
+
+.caja1 {
+
+    box-sizing: border-box;
+    width: 70%;
+    height: 550px;
+    padding: 10px;
+    background-color: rgb(65, 62, 62);
+    border: 10px solid rgb(255, 115, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    
+}
+
+
+.lados1 {
+    
+    display: flex;
+    align-self: center;
+    margin: auto;
+    
+
+}
+
+
+.lados1 img {
+
+    height: 250px;
+    
+}
+
+
+
+.centro1 img {
+
+    width: 450px;
+    height: auto;
+    
+
+}
+
+.contenedor1 {
+
+    display: flex;
+    margin-top: 100px;
+    margin-bottom:50px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+.caja2 {
+
+    
+    background-color: rgb(255, 115, 0);
+    height:550px;
+    width: auto;
+    box-sizing: border-box;
+    margin-left: 3%;
+    border: 10px solid rgb(255, 255, 255);
+    display: flex;
+    
+
+}
+
+
+.anywaycaja {
+
+    width:500px;
+    margin:auto;
+}
+
+.anyway {
+    margin:10px;
+}
+
+
+.contenedor2 {
+
+    
+    height: 850px;
+    margin-left: 4%;
+    margin-right:4%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    
+    
+
+}
+
+
+
+.caja3 img, .caja4 img, .caja5 img, .caja6 img {
+
+    width:200px;
+    margin: auto;
+
+
+}
+
+
+.caja3 {
+
+    border: 10px solid rgb(195, 0, 255);
+    
+    
+
+}
+
+
+.caja4 {
+
+    border: 10px solid rgb(4, 0, 255);
+    align-self: flex-end;
+
+
+}
+
+.caja5 {
+
+    border: 10px solid rgb(255, 0, 0);
+
+
+}
+
+.caja6 {
+
+    border: 10px solid rgb(0, 255, 0);
+    align-self: flex-end;
+    
+
+
+}
+
+
+.caja3, .caja4, .caja5, .caja6 {
+
+
+    height:750px;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
