@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Proto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="webestilofinal.css">
+    <script src="js/jquery-3.6.0.min"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/2a27026d0f.js" crossorigin="anonymous"></script>
+    
+
+    <script>
+      $(document).ready(function () {
+          $("button").click(function () {
+              $(".fixed").hide();
+          });
+      });
+  </script>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+  <header class="container-fluid col-12">
+
+    
+
+      
+      <div id="Home">
+
+        <!-----Navbar start----->
+          <nav class="container navbar col-xl-12 col-md-12 navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a href="#Home"><img class="navbar-brand" src="img/logo web.svg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Sobremi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+            </nav>
+
+        <!-----NNavbar end------>
+
+        <!-----home start----->
+
+        <div class="background">
+
+            <img src="img/fotoweb.jpg" class="img-fluid">
+
+        </div>
+
+        <div class="heading-content text-center">
+          <h1>Javier de Asumendi</h1>
+          <h2>Diseñador gráfico</h2>
+        </div>
+
+    </div>
+        <!-----home end----->
+
+
+      <!-----Sobre mi principo----->
+
+
+
+        <div class="container">
+
+              <div id="Sobremi" class="offset mt-5 mb-5">
+
+                  <div class="post-heading text-center">
+
+                    <h2>Sobre mi</h2>
+
+                    <hr class="w-50 mx-auto pb-1">
+
+                  </div>
+
+              </div>
+
+            <div id="conoceme" class="offset">
+
+            <div class="row">
+
+                  <div class="col-lg-6 col-md-6 col-12">
+                
+                    <img src="img/fotowebcolor.jpg" class="img-fluid">
+
+                  </div>
+
+              <div class="conocemetxt col-lg-6 col-md-6 col-12">
+
+                  <h2>Hola!</h2><br>
+                  
+                    <p>Me llamo Javier de Asumendi, tengo 23 años y actuálmente me formo como diseñador gráfico en la Escuela de Arte y Superior de Diseño de Alicante.<br><br> Esta es mi web personal, espero que sea de tu agrado y si es posible, poder satisfacer tus necesidades de diseño. Gracias de antemano y hasta pronto!</p>
+                
+              </div>
+
+            </div>
+          
+        </div>
+        
+        
+
+        
+
+  </header>
+        
+
+
+
+      <!----- sobre mi conoceme final------->
+
+
+        <!-----portfolio principo------->
+
+        <div id="Portfolio" class="offset container">
+
+          <div class="post-heading text-center">
+
+            <h2>Portfolio</h2>
+            <hr class="w-50 mx-auto pb-1">
+
+          </div>
+
+          <div class="container-fluid row">
+
+                <h2 class="portfolioh2">Packaging</h2>
+
+                <div class="card col-lg-4 col-md-12 col-12 mx-auto bg-dark">
+                  <img src="img/packaging1.png" class="card-img-top" alt="Cereales integrales" title="Cereales integrales">
+                  <div class="card-body">
+                    <h5 class="card-title">SunSeeds</h5>
+                    <p class="card-text">Diseño para packaging de cereales integrales para la marca 'Breakfest'.</p>
+                    
+                  </div>
+                </div>
+
+                <div class="card col-lg-4 col-md-12 col-12 mx-auto bg-dark">
+                  <img src="img/packaging2.png" class="card-img-top" alt="Cereales de chocolate" title="Cereales de chocolate">
+                  <div class="card-body">
+                    <h5 class="card-title">ChocoFest</h5>
+                    <p class="card-text">Diseño para packaging de cereales de chocolate para la marca 'Breakfest'.</p>
+                    
+                  </div>
+                </div>
+
+
+                <div class="card col-lg-4 col-md-12 col-12 mx-auto bg-dark">
+                  <img src="img/packaging3.png" class="card-img-top" alt="Caja de caramelos" title="Caja de caramelos">
+                  <div class="card-body">
+                    <h5 class="card-title">Caja de caramelos</h5>
+                    <p class="card-text">Diseño de caja de caramelos que, valga la redundancia, es otro caramelo.</p>
+                    
+                  </div>
+                </div>
+                
+            
+
+
+          </div>
+
+          
+            
+          
+          <div class="container-fluid row">
+
+              <h2 class="portfolioh2">Fotografía</h2>
+
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <img onclick="openModal();currentSlide(1)" class="imgporfolio img-fluid hover-shadow cursor" src="img/portfolio1.jpg" alt="aristocrazy1" title="aristocrazy1">
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <img onclick="openModal();currentSlide(2)" class="imgportfolio img-fluid hover-shadow cursor" src="img/portfolio2.jpg" alt="aristocrazy1" title="aristocrazy1">
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <img onclick="openModal();currentSlide(3)"class="imgportfolio img-fluid hover-shadow cursor" src="img/portfolio3.jpg" alt="aristocrazy1" title="aristocrazy1">
+              </div>
+
+           </div>
+
+          </div>
+
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <div class="numbertext">1 / 3</div>
+                <img src="img/portfolio1.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/portfolio2.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">3 / 3</div>
+                <img src="img/portfolio3.jpg" style="width:100%">
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+          
+          
+              <div class="column">
+                <img class="demo cursor" src="img/portfolio1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Aristocrazy1">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img/portfolio2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Aristocrazy2">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img/portfolio3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Campaña verano Fred Perry">
+              </div>
+            </div>
+          </div>
+
+          
+
+
+
+
+        <!----- portflio final final------->
+
+          <!-----Contacto principo------->
+
+          <div id="Contacto" class="offset w-50 mx-auto">
+
+            <div class="post-heading text-center">
+  
+              <h2>Contacta conmigo</h2>
+              <hr class="w-50 mx-auto pb-1">
+  
+            </div>
+
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label class="forname" for="name">Nombre:</label>
+                <input type="name" class="form-control bg-dark mb-3" placeholder="Tu nombre" id="fornamebtn">
+              </div>
+              <div class="form-group">
+                <label class="foremail" for="email">Correo electrónico:</label>
+                <input type="email" class="form-control bg-dark mb-3" placeholder="Tu correo" id="foremailbtn">
+              </div>
+              <div class="form-group">
+                <label class="formsg" for="text">Mensaje:</label>
+                <input type="text" class="form-control pb-5 bg-dark mb-3" placeholder="Tu mensaje" id="formsgbtn">
+              </div>
+              <button type="submit" class="btn btn-dark mt-3 botonenviar">Enviar</button>
+            </form> 
+
+            </div>
+            
+
+      <!----- Contacto final------->
+
+      <hr class="w-50 mx-auto mt-5 pb-1">
+
+      <!-- Footer -->
+
+        
+      
+
+    <footer class="container-fluid">
+
+        <ul>
+
+          <li class="redes">Sígueme en mis redes sociales</li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/jdeasumendi/?hl=es"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://www.facebook.com/javier.deasumendialeman"><i class="fab fa-facebook"></i></a>
+            <a target="_blank" href="https://twitter.com/DeAsumendi"><i class="fab fa-twitter"></i></a>
+          </li><br>
+          <li><i class="fas fa-home"></i>Camino Cruz de Piedra 23, 03013, Alicante</li>
+          <li><i class="fas fa-envelope"></i>javierasumendi@alu.easda.es</li>
+          <li><i class="fas fa-phone"></i>622 43 00 55</li>
+          
+        </ul>
+
+      
+    
+    </footer>
+
+<!-- Footer -->
+
+<script>
+  function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+
+   
+</body>
+
+
+
+</html>
